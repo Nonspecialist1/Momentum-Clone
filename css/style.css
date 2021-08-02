@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+.hidden {
+  display: none;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-size: cover;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: azure;
+}
+#bg {
+  border: 0;
+  padding: 0;
+  background-image: url("img/${chosenImage}");
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+#clock {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  font-size: 100px;
+  font-weight: 600;
+}
+article {
+  font-size: 25px;
+  font-weight: bolder;
+}
+footer {
+  margin-top: 250px;
+}
