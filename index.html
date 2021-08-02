@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     <title>Momentum App</title>
   </head>
 
@@ -26,29 +26,32 @@
     </form>  
     <h1 id="greeting" class="hidden"></h1>
 
-      <article>
+    <article>
       <form id="todo-form" class="hidden">
-        <input
-          style="text-align: center; width: 200px; height: 20px;"
-          required
-          type="text"
-          placeholder="Write a To Do and Press Enter"
-        />
+          <input
+            style="text-align: center; width: 200px; height: 20px;"
+            required
+            type="text"
+            placeholder="Write your To-Do List"
+          />
       </form>
       <ul id="todo-list"></ul>
-    </h1></article>
+    </article>
 
-    <h3><footer>
-      <div id="quote">
-        <span></span>
+    <div class="weather">
+      <div id="temp"> 
         <span></span>
       </div>
-
       <div id="weather">
         <span></span>
         <span></span>
       </div>
-    </h3></footer>
+    </div>
+
+    <div id="quote">
+       <span></span><br>
+       <span style="color:aqua"></span>
+    </div>
     <script src="js/greetings.js"></script>
     <script src="js/clock.js"></script>
     <script src="js/quotes.js"></script>
